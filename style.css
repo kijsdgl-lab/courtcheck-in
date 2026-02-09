@@ -1,0 +1,83 @@
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-section input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.waiting-section, .courts {
+  margin-top: 20px;
+}
+
+.waiting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 6px;
+  background-color: #eef;
+  border-radius: 6px;
+}
+
+.court {
+  background-color: #d0f0c0;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.court h3 {
+  margin: 0 0 8px 0;
+}
+
+.player {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px;
+  margin: 4px 0;
+}
+
+.emoji {
+  font-size: 1.2em;
+}

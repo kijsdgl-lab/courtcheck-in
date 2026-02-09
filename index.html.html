@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>테니스 코트 출석 관리</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎾테니스 코트 출석 관리</h1>
+
+    <div class="form-section">
+      <input type="text" id="name" placeholder="이름" />
+      <select id="gender">
+        <option value="남">남</option>
+        <option value="여">여</option>
+      </select>
+      <input type="number" id="career" placeholder="구력(년)" min="0" />
+      <button id="checkIn">출석</button>
+    </div>
+
+    <div class="waiting-section">
+      <h2>⏱대기자 명단</h2>
+      <ul id="waitingList"></ul>
+    </div>
+
+    <div class="courts">
+      <h2>코트 현황</h2>
+      <div id="courtsContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
